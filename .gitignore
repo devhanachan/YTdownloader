@@ -1,0 +1,62 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# ---- Virtualenv ----
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# ---- Test / tooling ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.pyright/
+
+# ---- IDE / editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+
+# ---- Build / distro ----
+build/
+dist/
+*.spec
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Env files (secrets) ----
+.env
+.env.*
+*.env
+
+# ---- Windows / Tkinter app outputs ----
+*.exe
+*.msi
+
+# ---- Media / downloads (if your app saves files) ----
+downloads/
+output/
